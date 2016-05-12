@@ -1,0 +1,22 @@
+.popularthumb{
+	width:44%;
+	margin:2.5%;
+	display:inline-block;
+	vertical-align:top;
+	height: 200px;
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+.popularthumb p{
+	position: relative;
+	width: 100%;
+	top: 90px;
+	text-align:center;
+	background:rgba(0,0,0,0.5);
+}
+
+.popularthumb p a{
+	color:#fff;
+	font-weight:bold;
+}
