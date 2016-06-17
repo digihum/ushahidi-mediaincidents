@@ -4,7 +4,6 @@
 	display:inline-block;
 	vertical-align:top;
 	height: 200px;
-	background-size:cover;
 	background-repeat:no-repeat;
 }
 
@@ -13,10 +12,10 @@
 	width: 100%;
 	top: 90px;
 	text-align:center;
-	background:rgba(0,0,0,0.5);
+	background:rgba(50,50,50,0.5);
 }
 
-.popularthumb p a{
+#main .popularthumb p a{
 	color:#fff;
 	font-weight:bold;
 }

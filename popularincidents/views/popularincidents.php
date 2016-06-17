@@ -15,7 +15,7 @@
 		$incident_id = $incident->id;
 		$incident_title = text::limit_chars(strip_tags($incident->incident_title), 40, '...', True);
 	?>
-	<div class="popularthumb" style="background:url('<?PHP echo url::site() . "media/uploads/" . $mediaResources[$incident_id][0];  ?>')">
+	<div class="popularthumb" style="background-size:cover; background-image:url('<?PHP echo url::site() . "media/uploads/" . $mediaResources[$incident_id][0];  ?>')">
 		<p><a href="<?php echo url::site() . 'reports/view/' . $incident_id; ?>"> <?php echo html::specialchars($incident_title) ?></a></p>
 	</div>
 	<?php

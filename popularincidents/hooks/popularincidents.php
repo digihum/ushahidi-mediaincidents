@@ -14,6 +14,9 @@ class popularincidents { // CHANGE THIS FOR OTHER BLOCKS
 	}
 	public function block()
 	{
+
+		Requirements::css('plugins/popularincidents/css/popularincidents.css');	
+
 		// Load the reports block view
 		$content = new View('popularincidents'); // CHANGE THIS IF YOU WANT A DIFFERENT VIEW
 		
